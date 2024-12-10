@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    {
+      "source": "/doc",
+      "destination": "/api/registry"
+    },
+    {
+      "source": "/registry",
+      "destination": "/api/registry"
+    },
+    {
+      "source": "/registry/:path*",
+      "destination": "/api/registry"
+    }
+  ],
+  "redirects": [
+    { "source": "/", "destination": "/registry", "permanent": false }
+  ]
+}

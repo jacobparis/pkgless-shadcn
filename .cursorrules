@@ -1,0 +1,3 @@
+- never use interfaces
+- do not make unrelated changes to the code that I have not asked for
+- solve problems by addressing the root cause, not by guarding against the symptom

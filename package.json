@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel",
+    "build:registry": "tsx build.ts"
+  },
+  "dependencies": {
+    "@hono/zod-openapi": "^0.18.3",
+    "hono": "^4.4.2",
+    "js-yaml": "^4.1.0",
+    "minimatch": "^10.0.1",
+    "simple-git": "^3.27.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "vercel": "^32.4.1"
+  },
+  "prettier": {
+    "semi": false
+  }
+}
